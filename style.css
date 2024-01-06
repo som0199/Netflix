@@ -1,0 +1,474 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 95vh;
+
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url('./IN-en-20231002-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+
+  
+    background-position: center;
+    background-size: cover;
+
+    border-bottom: 8px  solid rgb(40, 39, 39);
+}
+.navbar{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 150px;
+}
+.navbar img{
+    width: 250px;
+}
+.navbar span button{
+    width: 80px;
+    height: 35px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+#btn{
+    width: 100px;
+    background-color: black;
+    margin-right: 8px;
+    color: white;
+}
+
+.text-part{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 150px;
+    color: white;
+}
+
+.text-part h1{
+    font-size: 50px;
+}
+.text-part h6{
+    font-size: 24px;
+    margin-top: 20px;
+}
+.text-part p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.text-part span {
+    margin-top: 30px;
+}
+.text-part span input{
+    width: 300px;
+    height: 50px;
+
+    background-color: rgba(42, 40, 40, 0.777);
+
+    border-radius: 5px;
+    border: 1px solid white;
+    padding-left: 30px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.text-part span button{
+    width: 180px;
+    height: 50px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+
+
+}
+.container-2{
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-color: black;
+    background-size: cover;
+    border-bottom: 8px solid rgb(40, 39, 39);
+    padding-block: 50px;
+
+}
+.container-2 a{
+    text-decoration: underline;
+    color: rgb(168, 168, 168);
+}
+.section{
+    width: 100%;
+    height: auto;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-inline: 170px;
+   color: white ;
+   
+}
+
+.section h1{
+    font-size: 50px;
+    font-weight: 700;
+    
+    
+}
+.section h5{
+    font-size: 22px;
+    margin-top: 25px;
+    font-weight: 600;
+}
+/* .container{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+} */
+.section-2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 170px ;
+    color: white;
+    text-align: center;
+
+}
+.section-2 h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#question{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 50px;
+}
+#question details{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+.section-2 span input{
+    width: 300px;
+    height: 50px;
+    color: white;
+    border-radius: 4px;
+    border-color: rgb(200, 195, 195);
+    text-align: left;
+    padding: 10px;
+    background-color: transparent;
+    margin-right: 5px;
+}
+.section-2 span button{
+    width: 180px;
+    height: 50px;
+    color: white;
+    background-color: red;
+    border-radius: 5px ;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    /* margin-bottom: 8px; */
+    
+}
+.question{
+  width: 100%;
+  height: auto;
+  color: white;
+  background-color: rgb(48, 46, 46);
+  text-align: left; 
+  font-size: 22px ;
+  padding: 10px;
+  margin-bottom: 9px;
+  border: hidden;
+}
+.section-3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding-inline: 170px ;
+    flex-direction: column;
+    color: rgb(168, 168, 168);
+    
+}
+.section-3 p{
+    width: 100%;
+    height: auto;
+    text-align: start;
+    color: rgb(168, 168, 168);
+}
+
+.section-4{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+    
+}
+#direction{
+    width: 100%;
+    height: auto;
+    display: flex;
+    color: white;
+
+}
+
+
+
+@media(max-width:1000px) {
+      
+.container{
+    width: 100%;
+    height: 80vh;
+    
+}
+.navbar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 15px;
+}
+.navbar img{
+    width: 150px;
+    height: auto;
+}
+.navbar span button{
+    width: 80px;
+    height: 40px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+#btn{
+    width: 130px;
+    background-color: transparent;
+    border: 1px solid gray;
+    margin-right: 8px;
+    color: white;
+}
+
+.text-part{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 150px;
+    color: white;
+}
+
+.text-part h1{
+    font-size: 35px;
+}
+.text-part h6{
+    font-size: 20px;
+    margin-top: 25px;
+}
+.text-part p{
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+.text-part span {
+    margin-top: 30px;
+}
+.text-part span input{
+    width: 400px;
+    height: 65px;
+    background-color: rgba(42, 40, 40, 0.777);
+    border-radius: 5px;
+    border: 1px solid white;
+    padding-left: 30px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.text-part span button{
+    width: 200px;
+    height: 65px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+
+
+}
+.container-2{
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-color: black;
+    background-size: cover;
+    border-bottom: 8px solid rgb(40, 39, 39);
+    padding-block: 60px;
+
+}
+.default-ltr-cache-bjn8wh {
+    position: relative;
+}
+.section{
+    width: 100%;
+    height: auto;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-direction: column;
+   /* padding-inline: 170px; */
+   color: white ;
+   
+}
+
+.section h1{
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    
+    
+}
+.section h5{
+    font-size: 21px;
+    margin-top: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+#sec-2{
+    flex-direction: column-reverse;
+}
+/* .container{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+} */
+.section-2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* padding-inline: 170px ; */
+    color: white;
+    text-align: center;
+
+}
+.section-2 h1{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+#question{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 50px;
+}
+#question details{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+.section-2 span input{
+    width: 300px;
+    height: 50px;
+    color: white;
+    border-radius: 4px;
+    border-color: rgb(200, 195, 195);
+    text-align: left;
+    padding: 10px;
+    background-color: transparent;
+    margin-right: 5px;
+}
+.section-2 span button{
+    width: 180px;
+    height: 50px;
+    color: white;
+    background-color: red;
+    border-radius: 5px ;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    /* margin-bottom: 8px; */
+    
+}
+.question{
+  width: 100%;
+  height: auto;
+  color: white;
+  background-color: rgb(48, 46, 46);
+  text-align: left; 
+  font-size: 22px ;
+  padding: 10px;
+  margin-bottom: 9px;
+  border: hidden;
+}
+.section-3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    /* padding-inline: 170px ; */
+    flex-direction: column;
+    color: white;
+    
+}
+
+
+.section-4{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: 20px;
+    
+}
+#direction{
+    width: 100%;
+    height: auto;
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+
+}
+
+}
+
